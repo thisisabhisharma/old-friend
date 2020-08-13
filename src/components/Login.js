@@ -75,7 +75,7 @@ class LoginScreen extends Component {
               type="button"
               onClick={this.handleClick}
             >
-              Continue with phone
+              Continue with phone...
             </button>
             <p className="textColor">
               By clicking continue you are accepting our terms and conditions
