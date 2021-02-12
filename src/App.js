@@ -52,13 +52,13 @@ function App() {
               OLD FRIEND
             </Link>
           </div>
-          <div>
+          {/* <div>
             <Route
               render={({ history }) => (
                 <SearchBox history={history}></SearchBox>
               )}
             ></Route>
-          </div>
+          </div> */}
           <div>
             {adminInfo ? (
               <div className="dropdown">
