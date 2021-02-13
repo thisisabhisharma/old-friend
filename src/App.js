@@ -15,12 +15,13 @@ import {
   BrowserRouter,
   Link,
 } from "react-router-dom";
-import SearchBox from "./components/SearchBox";
+// import SearchBox from "./components/SearchBox";
 import { useState } from "react";
 // import AdminRoute from "./components/AdminRoute";
 import adminSigninScreen from "./admin/adminSigninScreen";
 import adminPanel from "./admin/adminPanel";
 import SchoolScreen from "./screens/SchoolScreen";
+import AddYourselfScreen from "./screens/AddYourselfScreen";
 
 function App() {
   const userSignin = useSelector((state) => state.userSignin);
@@ -97,7 +98,7 @@ function App() {
         <aside className={sidebarIsOpen ? "open" : ""}>
           <ul className="categories">
             <li>
-              <strong>User Info</strong>
+              <strong>DASHBOARD</strong>
               <button
                 onClick={() => setSidebarIsOpen(false)}
                 className="close-sidebar"
@@ -113,6 +114,7 @@ function App() {
           <Route exact path="/" component={HomeScreen} />
           <Route path="/school/:id" component={SchoolScreen}></Route>
           <Route path="/register" component={RegisterScreen} />
+          <Route path="/addyourself" component={AddYourselfScreen} />
           <Route path="/admin" component={adminSigninScreen} exact></Route>
           <Route path="/adminpanel" component={adminPanel} exact></Route>
           {/* <Route path="*" component={() => "404 NOT FOUND"} /> */}

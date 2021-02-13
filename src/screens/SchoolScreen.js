@@ -5,7 +5,7 @@ import LoadingBox from "../components/LoadingBox";
 import MessageBox from "../components/MessageBox";
 import Student from "../components/Students";
 
-export default function SchoolScreen() {
+export default function SchoolScreen(props) {
   const school = useSelector((state) => state.school);
   const { loading, error, schoolInfo } = school;
 
@@ -29,6 +29,10 @@ export default function SchoolScreen() {
               ))}
             </div>
           </>
+          <div className="text center">
+            <p >not added? </p>
+            <Link to={`/addyourself`}>Add yourself</Link>
+          </div>
         </div>
       )}
     </div>

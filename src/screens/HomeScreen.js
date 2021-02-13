@@ -4,7 +4,7 @@ import SchoolList from "../components/schoolList";
 import LoadingBox from "../components/LoadingBox";
 import MessageBox from "../components/MessageBox";
 import { useDispatch, useSelector } from "react-redux";
-import { listSchools, schoolInfoAction } from "../actions/schoolAction";
+import { listSchools, schoolId, schoolInfoAction } from "../actions/schoolAction";
 import { useState } from "react";
 
 export default function HomeScreen(props) {
@@ -21,12 +21,13 @@ export default function HomeScreen(props) {
       props.history.push("/signin");
     }
     dispatch(listSchools());
-  }, [dispatch, props.history, usertoken, sid]);
+  }, [dispatch, props.history, usertoken]);
 
   const onClickHandler = (sid) => {
     console.log(sid, "onclickHandler called");
     setSid(sid);
     dispatch(schoolInfoAction(sid, userInfo));
+    dispatch(schoolId(sid));
   };
 
   return (

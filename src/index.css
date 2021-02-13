@@ -87,6 +87,10 @@ button:hover {
 }
 button.primary {
   background-color: #f0c040;
+  margin-top: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 button.block {
   width: 100%;
@@ -121,6 +125,19 @@ a.brand {
 }
 .row.center {
   justify-content: center;
+}
+.text.center{
+  text-align: center;
+  margin-top: 5rem;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+  background-color: #f0c040;
+  margin-bottom: 2em;
 }
 .row.top {
   align-items: flex-start;
