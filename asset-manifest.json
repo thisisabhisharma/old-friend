@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/thisisabhisharma/old-friend/static/css/main.0f1a7a3e.chunk.css",
+    "main.js": "/thisisabhisharma/old-friend/static/js/main.af441d1e.chunk.js",
+    "main.js.map": "/thisisabhisharma/old-friend/static/js/main.af441d1e.chunk.js.map",
+    "runtime-main.js": "/thisisabhisharma/old-friend/static/js/runtime-main.0485e314.js",
+    "runtime-main.js.map": "/thisisabhisharma/old-friend/static/js/runtime-main.0485e314.js.map",
+    "static/css/2.fb346933.chunk.css": "/thisisabhisharma/old-friend/static/css/2.fb346933.chunk.css",
+    "static/js/2.ae42f685.chunk.js": "/thisisabhisharma/old-friend/static/js/2.ae42f685.chunk.js",
+    "static/js/2.ae42f685.chunk.js.map": "/thisisabhisharma/old-friend/static/js/2.ae42f685.chunk.js.map",
+    "index.html": "/thisisabhisharma/old-friend/index.html",
+    "precache-manifest.2e2e500931703a57b7108967fe4851cd.js": "/thisisabhisharma/old-friend/precache-manifest.2e2e500931703a57b7108967fe4851cd.js",
+    "service-worker.js": "/thisisabhisharma/old-friend/service-worker.js",
+    "static/css/2.fb346933.chunk.css.map": "/thisisabhisharma/old-friend/static/css/2.fb346933.chunk.css.map",
+    "static/css/main.0f1a7a3e.chunk.css.map": "/thisisabhisharma/old-friend/static/css/main.0f1a7a3e.chunk.css.map",
+    "static/js/2.ae42f685.chunk.js.LICENSE.txt": "/thisisabhisharma/old-friend/static/js/2.ae42f685.chunk.js.LICENSE.txt",
+    "static/media/school_image.jpg": "/thisisabhisharma/old-friend/static/media/school_image.19145815.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0485e314.js",
+    "static/css/2.fb346933.chunk.css",
+    "static/js/2.ae42f685.chunk.js",
+    "static/css/main.0f1a7a3e.chunk.css",
+    "static/js/main.af441d1e.chunk.js"
+  ]
+}
